@@ -1,8 +1,6 @@
 import React from 'react';
 import './style.css'
-import Intro from './Intro';
-import ProfileLinks from '../ProfileLinks/ProfileLinks';
-// import SectionLinks from '../SectionLinks/SectionLinks';
+import Intro from '../Intro/Intro';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 
