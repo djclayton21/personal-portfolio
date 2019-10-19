@@ -1,9 +1,11 @@
 import React from 'react';
 
-const ProjectFull = () => {
+const ProjectFull = (props) => {
+    const { name, description} = props
     return (
         <section className="project-full">
-            Project Full
+            <div>{name}</div>
+            <div>{description}</div>
         </section>
     );
 }

@@ -58,8 +58,6 @@ a {
 .app {
 	display: grid;
 	grid-template-rows: auto 1fr;
-}
-
-.app > *{
-	border: 1px solid black;
+	min-height: 100vh;
+	min-width: 100vw;
 }

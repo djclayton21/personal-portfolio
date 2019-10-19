@@ -3,7 +3,7 @@ import './style.css';
 
 const Intro = () => {
     return (
-        <section className = 'home-intro'>
+        <section className = 'intro'>
             <h3>Hello, and welcome to my portfolio!</h3>
             <h5>My name is <span className="intro-name">Dan Clayton</span></h5>
             <h5>I'm a full-stack web developer</h5>
