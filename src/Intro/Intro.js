@@ -4,10 +4,10 @@ import './style.css';
 const Intro = () => {
     return (
         <section className = 'intro'>
-            <h3>Hello, and welcome to my portfolio!</h3>
-            <h5>My name is <span className="intro-name">Dan Clayton</span></h5>
-            <h5>I'm a full-stack web developer</h5>
-            <h5>I should probably say more here as well, but I'll write it later!</h5>
+            <p>Welcome, and thank you for visiting!</p>
+            <h3>I'm Dan Clayton, and this is my portfolio.</h3>
+            <p>I'm a full-stack web developer who loves to learn and grow.</p>
+            <p>Please check out some of my projects, and feel free to contact me if you have any questions or ideas to help improve my work!</p>
         </section>);
 }
  

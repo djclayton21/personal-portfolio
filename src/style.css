@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-html, body {
+html, body, *, *:before, *:after {
     box-sizing: border-box;
 }
 ol, ul {
@@ -55,9 +55,11 @@ a {
     color: inherit;
 }
 
+/* general layout, colors, fonts */
 .app {
 	display: grid;
 	grid-template-rows: auto 1fr;
 	min-height: 100vh;
 	min-width: 100vw;
+	font-family: 'Open Sans', sans-serif;
 }
