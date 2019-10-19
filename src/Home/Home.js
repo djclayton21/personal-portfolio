@@ -6,7 +6,7 @@ import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
-        <main className="home">
+        <main className = "home" id = "home">
             <Intro />
             <Skills />
             <Projects />

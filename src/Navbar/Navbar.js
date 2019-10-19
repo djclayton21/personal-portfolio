@@ -1,17 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import './style.css'
+import './style.css';
+import resume from '../files/webDevResume.pdf'
 
 const Navbar = () => {
     return (
         <header className="navbar">
-            <Link to='/' >Home</Link>
+            <a href="#home">Home</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
-            {/* dropdown */}
             <a href="https://www.linkedin.com/in/djclayton21/" target="_blank" rel="noopener noreferrer" >LinkedIn</a>
             <a href="https://github.com/djclayton21" target="_blank" rel="noopener noreferrer" >Github</a>
-            <Link to='/resume' >Resume</Link>
+            <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
         </header>
     );
 }
