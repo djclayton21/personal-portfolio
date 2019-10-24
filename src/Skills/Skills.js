@@ -1,35 +1,37 @@
 import React from 'react';
 
-const Skills = () => {
+const Skills = (props) => {
     return (
-        <section className="skills" id='skills'>
+        <section className="skills" id='skills' ref = {props.skillsRef}>
             <div className="skills-languages">
                 <ul>Languages and Frameworks
                     <li>ES6 JavaScript</li>
-                    <li>HTML5</li>
+                    <li>React</li>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>Mongoose</li>
+                    <li>HTLM/JSX</li>
                     <li>CSS</li>
-                    <li>CSS</li>
-                    <li>CSS</li>
-                    <li>CSS</li>
+                    <li>git/Github</li>
                 </ul>
             </div>
             <div className="skills-other">
                 <ul>Other Skills
-                    <li>Soft Skill</li>
-                    <li>Soft Skill</li>
-                    <li>Soft Skill</li>
-                    <li>Soft Skill</li>
-                    <li>Soft Skill</li>
+                    <li>Problem Solving</li>
+                    <li>Teamwork</li>
+                    <li>Multitasking</li>
+                    <li>Time Management</li>
+                    <li>Customer Service</li>
+                    <li>Sales</li>
+                    <li>Coaching</li>
                 </ul>
             </div>
-            <div className="skills-working">
+            {/* <div className="skills-working">
                 <ul>Future Interests
-                    <li>Future Skill</li>
-                    <li>Future Skill</li>
-                    <li>Future Skill</li>
-                    <li>Future Skill</li>
+                    <li>Automation</li>
+                    <li>Data Science</li>
                 </ul>
-            </div>
+            </div> */}
         </section>
     );
 }
