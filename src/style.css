@@ -38,7 +38,7 @@ ol, ul {
 	list-style: none;
 }
 html {
-	scroll-behavior: smoothnp;
+	scroll-behavior: smooth;
 }
 blockquote, q {
 	quotes: none;
@@ -65,4 +65,35 @@ a {
 	min-height: 100vh;
 	min-width: 100vw;
 	font-family: 'Open Sans', sans-serif;
+}
+.fa-chevron-down {
+	position: absolute;
+	bottom: 0;
+	padding: 10px
+}
+
+.fa-chevron-up {
+	position: absolute;
+	top: 0;
+	padding: 10px
+}
+main {
+	position: relative;
+	top: 34px;
+	height: -moz-calc(100vh - 34px);
+	height: -webkit-calc(100vh - 34px);
+	height: -o-calc(100vh - 34px);
+	height: calc(100vh - 34px);
+}
+main > section > * {
+	margin: 1em 0;
+}
+.intro {
+	position: relative;
+	height: 100%;
+    width: 100%;
+    padding: 25px 25px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
 }

@@ -3,6 +3,8 @@ import React from 'react';
 const Skills = (props) => {
     return (
         <section className="skills" id='skills' ref = {props.skillsRef}>
+            <i className="fas fa-chevron-up" onClick = {() => props.scrollToRef(props.introRef)}></i>
+            <h1>Skills</h1>
             <div className="skills-languages">
                 <ul>Languages and Frameworks
                     <li>ES6 JavaScript</li>
@@ -32,6 +34,7 @@ const Skills = (props) => {
                     <li>Data Science</li>
                 </ul>
             </div> */}
+            <i className="fas fa-chevron-down" onClick = {() => props.scrollToRef(props.skillsRef)}></i>
         </section>
     );
 }

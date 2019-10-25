@@ -3,7 +3,7 @@ import './style.css';
 
 const Intro = (props) => {
     return (
-        <section className = 'intro'>
+        <section className = 'intro' ref = {props.introRef} >
             <p>Welcome, and thank you for visiting!</p>
             <h3>I'm Dan Clayton, and this is my portfolio.</h3>
             <p>I'm a full-stack web developer who loves to learn and grow.</p>
