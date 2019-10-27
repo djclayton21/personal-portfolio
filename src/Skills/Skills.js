@@ -6,7 +6,7 @@ const Skills = (props) => {
             <i className="fas fa-chevron-up" onClick = {() => props.scrollToRef(props.introRef)}></i>
             <h1>Skills</h1>
             <div className="skills-languages">
-                <ul>Languages and Frameworks
+                <ul  className = "skills-list">Languages and Frameworks
                     <li>ES6 JavaScript</li>
                     <li>React</li>
                     <li>Node</li>
@@ -18,7 +18,7 @@ const Skills = (props) => {
                 </ul>
             </div>
             <div className="skills-other">
-                <ul>Other Skills
+                <ul className = "skills-list">Other Skills
                     <li>Problem Solving</li>
                     <li>Teamwork</li>
                     <li>Multitasking</li>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import resume from '../data/resume.pdf'
+import resume from '../data/resumes/resume.pdf'
 import Contact from './Contact';
 
 const Navbar = () => {

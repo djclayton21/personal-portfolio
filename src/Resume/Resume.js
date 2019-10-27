@@ -2,11 +2,14 @@ import React from 'react';
 import './style.css'
 
 const Resume = () => {
+
+    //
     return (
         <main className="resume">
-            Resume
-            <button>Print</button>
-            <button>Download</button>
+            <div className="resume-print-buttons">
+                <button>Styled PDF</button>
+                <button>Flattened PDF</button>
+            </div>
         </main>
     );
 }
