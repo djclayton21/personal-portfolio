@@ -1,14 +1,33 @@
 .navbar {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    font-size: .8em;
-    background: black;
-    color: white;
-    position: fixed;
+    max-width: 900px;
+    margin: 0 auto;
+    background:#333333;
+    color: #F5F5F5;
+    z-index: 3;
+    box-shadow: 2px 0 4px #333333, -2px 0 4px #333333;
 }
-.navbar > * {
+
+.navbar a:hover {
+    background:#474747;
+}
+
+.navbar-pages, .navbar-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-    padding: 10px 0;
-    border: 1px solid black;
+}
+.navbar a {
+    padding: .5em;
+}
+
+
+.navbar-contact {
+    font-size: 1.2em;
+}
+
+.navbar-pages {
+    font-size: 1em;
 }

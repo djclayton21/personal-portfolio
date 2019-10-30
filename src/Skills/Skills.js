@@ -1,11 +1,16 @@
 import React from 'react';
+import './style.css'
 
 const Skills = () => {
     return (
         <section className="skills" id='skills' >
-            <h1>Skills</h1>
-            <div className="skills-languages">
-                <ul  className = "skills-list">Languages and Frameworks
+            <div className="section-header">
+                <h1>Skills</h1>
+                <hr/>
+            </div>
+            <div className="skills-tools">
+                <h3><i className="fas fa-tools"></i> Dev Tools <i className="fas fa-tools"></i></h3>
+                <ul className = "skills-list">
                     <li>ES6 JavaScript</li>
                     <li>React</li>
                     <li>Node</li>
@@ -17,7 +22,8 @@ const Skills = () => {
                 </ul>
             </div>
             <div className="skills-other">
-                <ul className = "skills-list">Other Skills
+                <h3><i className="fas fa-cocktail"></i> Other Skills <i className="fas fa-cocktail"></i></h3>
+                <ul className = "skills-list">
                     <li>Problem Solving</li>
                     <li>Teamwork</li>
                     <li>Multitasking</li>
