@@ -23,6 +23,12 @@
 }
 .intro-welcome > * {
     margin: 1em 0;
-
+}
+.intro a {
+    font-weight: 900;
+    transition: all .2s cubic-bezier(0.25, 1, 0.25, 1);
 }
 
+.intro a:hover {
+    color: black;
+}
