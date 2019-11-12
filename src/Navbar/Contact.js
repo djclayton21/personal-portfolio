@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../data/resumes/resume.pdf'
 
 const Contact = () => {
     return (
