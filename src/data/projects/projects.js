@@ -1,12 +1,13 @@
-import stocksImg from './images/stocks.png'
-import scatterbrainImg from './images/scatterbrain.png'
+import stocksImg from './images/stocks.png';
+import scatterbrainImg from './images/scatterbrain.png';
+import scheduling from './images/scheduling.png';
 
 export const projects = [
     {
         name: 'Simple Scheduling Tool',
-        description: 'Full-stack web app with user authentication. A tool to help restaurant and small business managers make weekly schedules.',
+        description: 'Full-stack web app with jwt user authentication. A tool to help restaurant and small business managers make weekly schedules.',
         toolsUsed: 'MongoDB, Express, React, Node',
-        image: "",
+        image: scheduling,
         liveUrl: 'http://simplescheduling.herokuapp.com//',
         githubUrl: 'https://github.com/djclayton21/scheduling-tool'
     },
