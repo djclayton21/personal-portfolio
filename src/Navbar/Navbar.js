@@ -4,12 +4,12 @@ import Contact from './Contact';
 import PageLinks from './PageLinks';
 
 const Navbar = () => {
-    return (
-        <header className="navbar">
-            <Contact />
-            <PageLinks />
-        </header>
-    );
-}
- 
+	return (
+		<header className="navbar">
+			<Contact />
+			<PageLinks />
+		</header>
+	);
+};
+
 export default Navbar;
