@@ -18,10 +18,11 @@ const Skills = () => {
 					<li>React</li>
 					<li>Node</li>
 					<li>Express</li>
+					<li>MongoDB</li>
 					<li>Mongoose</li>
 					<li>HTLM/JSX</li>
 					<li>CSS</li>
-					<li>git/Github</li>
+					<li>git + Github</li>
 				</ul>
 			</div>
 			<div className="skills-other">
