@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-const Intro = props => {
+const Intro = (props) => {
 	return (
 		<section className="intro" id="intro">
 			<div>
@@ -12,7 +12,7 @@ const Intro = props => {
 				<h2>My name is Dan Clayton, and this is my portfolio.</h2>
 				<p>
 					I'm a freshly-minted developer who loves to learn by
-					bulding.
+					building.
 				</p>
 				<p>
 					If you have any questions or suggestions, I'd love to hear
